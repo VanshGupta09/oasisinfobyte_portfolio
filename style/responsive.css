@@ -161,7 +161,7 @@
 
 @media (max-width: 768px) {
     .navbar .container .mainmenu ul {
-        background-color: rgb(0, 0, 0);
+        background-color: #ededed;
         z-index: -1;
         position: fixed;
         top: -100%;
@@ -231,7 +231,7 @@
     }
 
     .cover-page {
-        background: rgb(12, 12, 12);
+        /* background: rgb(12, 12, 12); */
     }
 
     .resume .content {
@@ -287,14 +287,16 @@
         margin: 5px 5px;
     }
 
-    .reviews .slids .card{
+    .reviews .slids .card {
         flex-direction: column;
         align-items: center;
         /* text-align: center; */
     }
+
     .reviews .slids .cards {
         padding: 281px 0;
     }
+
     .reviews .slids .card .img {
         width: 100%;
         height: 100%;
@@ -302,50 +304,60 @@
         border-radius: 50%;
         overflow: hidden;
     }
-    .reviews .slids .card .textmonial{
+
+    .reviews .slids .card .textmonial {
         margin-top: 25px;
     }
-    .reviews .slids .controls{
+
+    .reviews .slids .controls {
         width: 88%;
         right: 0;
         bottom: -5%;
     }
-    .footer .container p{
+
+    .footer .container p {
         font-size: 13px;
     }
-    .footer .priv a{
+
+    .footer .priv a {
         font-size: 13px;
     }
-    .contact .contactus{
+
+    .contact .contactus {
         flex-direction: column;
         align-items: center;
     }
-    .contact .contactus .touch{
+
+    .contact .contactus .touch {
         border-right: none;
         min-width: 371px;
     }
-    .contact .contactus .form{
+
+    .contact .contactus .form {
         border-right: none;
         width: 100%;
-        max-width:400px;
+        max-width: 400px;
     }
-    .contact .contactus form{
-       align-items: center;
+
+    .contact .contactus form {
+        align-items: center;
     }
-    .contact .contactus .form form input{
+
+    .contact .contactus .form form input {
         width: 100%;
     }
-    .contact .contactus .form form textarea{
+
+    .contact .contactus .form form textarea {
         width: 100%;
     }
 }
 
 @media (max-width: 600px) {
     .navbar .container .mainmenu ul li a {
-        color: #fff;
         margin: 0 13px;
         transition: .5s;
     }
+
     .resume .card-m .ca-1 {
         margin-top: 90px;
     }
@@ -362,28 +374,35 @@
         width: 40%;
         margin-top: 20px;
     }
-    .reviews .slids .card .textmonial{
+
+    .reviews .slids .card .textmonial {
         padding: 0;
     }
-    .reviews .slids .card .textmonial .txt-head::before{
+
+    .reviews .slids .card .textmonial .txt-head::before {
         display: none;
     }
-    .reviews .slids .card .textmonial{
+
+    .reviews .slids .card .textmonial {
         text-align: center;
-        
+
     }
-    .reviews .slids .card .textmonial .txt-head{
+
+    .reviews .slids .card .textmonial .txt-head {
         margin-left: 0;
     }
-    .reviews .slids .controls{
+
+    .reviews .slids .controls {
         flex-direction: column;
         width: 100%;
         bottom: -10%;
     }
-    .reviews .dots{
+
+    .reviews .dots {
         margin-bottom: 20px;
     }
-    .footer .container{
+
+    .footer .container {
         flex-direction: column;
     }
 }
@@ -465,37 +484,43 @@
         width: 100%;
         margin: 20px 5px;
     }
-    .reviews .slids .card .textmonial .area{
+
+    .reviews .slids .card .textmonial .area {
         flex-direction: column;
     }
+
     .blogs .cards .card {
         cursor: pointer;
         width: 80%;
         box-shadow: 0 0 10px 1px #88888899;
         overflow: hidden;
         border-radius: 10px;
-        margin: 10px 10px; 
+        margin: 10px 10px;
     }
-    .contact .contactus .touch .card .icon i{
+
+    .contact .contactus .touch .card .icon i {
         font-size: 35px;
     }
+
     .contact .contactus .touch .cards {
         padding: 40px 20px;
     }
 }
 
 @media (max-width:375px) {
-    .blogs .cards .card{
+    .blogs .cards .card {
         width: 100%;
     }
 }
+
 @media (max-width:320px) {
-    .reviews .slids .controls{
+    .reviews .slids .controls {
         flex-direction: column;
         width: 100%;
         bottom: -15%;
     }
-    .contact .contactus .touch{
+
+    .contact .contactus .touch {
         min-width: 310px;
     }
 }

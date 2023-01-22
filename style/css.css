@@ -71,7 +71,7 @@ body {
     position: absolute;
     width: 10px;
     height: 10px;
-    background-color: #000;
+    background-color: #999;
     z-index: 9999999999999999;
     border-radius: 50%;
 }
